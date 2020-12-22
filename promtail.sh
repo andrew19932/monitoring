@@ -48,7 +48,7 @@ scrape_configs:
       labels:
         job: canvas
         host: 54.76.147.254
-        __path__: /var/www/astria_lms/log/production.log
+        __path__: /var/www/canvas/log/production.log
 EOF
 echo  promtail.service file is created
 sudo systemctl daemon-reload
