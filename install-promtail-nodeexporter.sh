@@ -53,7 +53,7 @@ positions:
   filename: /tmp/positions.yaml
 #modify ip to ip of your loki instal
 clients:
-  - url: http://52.213.64.97:3100/loki/api/v1/push
+  - url: http://172.30.4.222:3100/loki/api/v1/push
 #modify host of your job and job name on which promtail will be installed
 scrape_configs:
   - job_name: syslog
